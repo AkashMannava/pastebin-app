@@ -1,3 +1,5 @@
+// src/app/api/p/[id]/page.js
+
 import { notFound } from 'next/navigation';
 
 export const dynamic = 'force-dynamic';
@@ -19,7 +21,7 @@ async function getPaste(id) {
 }
 
 export default async function PastePage({ params }) {
-    const { id } = await params;
+    const { id } =  params;
     const paste = await getPaste(id);
 
     if (!paste) {

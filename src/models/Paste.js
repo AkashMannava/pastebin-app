@@ -1,3 +1,4 @@
+// src/app/models/paste.js
 import mongoose from 'mongoose';
 
 const PasteSchema = new mongoose.Schema({

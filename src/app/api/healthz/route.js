@@ -1,3 +1,5 @@
+// src/app/api/healthz/route.js
+
 import { NextResponse } from 'next/server';
 import dbConnect from '@/lib/db';
 

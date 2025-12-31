@@ -1,3 +1,5 @@
+// src/app/api/pastes/route.js
+
 import { NextResponse } from 'next/server';
 import { nanoid } from 'nanoid';
 import dbConnect from '@/lib/db';
